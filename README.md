@@ -1,17 +1,40 @@
-# Dynamic Corporate PDF Invoice Engine (Python)
+# Invoice Generator Engine
 
-A professional, production-ready backend tool that dynamically generates beautifully styled, multi-item PDF invoices with automated math tracking and clean business grids.
+A Python application that generates professional PDF invoices automatically.
 
-## 🚀 Key Business Features
-* **Dynamic Multi-Item Layout:** Automatically adjusts spacing for any number of line items to prevent text overlap.
-* **Automated Accounting Math:** Instantly calculates line subtotals, custom tax values, and grand totals on the fly.
-* **Corporate Branding:** Built with a clean navy theme and alternating gray table row strips for maximum readability.
+## Features
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Core Library:** ReportLab (Canvas API geometry tracking)
+- Generate professional PDF invoices
+- Clean and simple invoice layout
+- Fast and easy to use
+- Reduces manual invoice creation
 
-## 📦 How to Run
-1. Install dependencies: `pip install reportlab`
-2. Run the application: `python app.py`
-3. Enter client details when prompted to instantly generate a clean `.pdf` document.
+## Technologies Used
+
+- Python
+- ReportLab
+
+## Installation
+
+```bash
+git clone https://github.com/ounpathan33-lgtm/invoice-generator-engine.git
+cd invoice-generator-engine
+pip install reportlab
+```
+
+## Usage
+
+Run the program:
+
+```bash
+python main.py
+```
+
+A PDF invoice will be generated automatically.
+
+## Author
+
+**Oun Pathan**
+
+GitHub: https://github.com/ounpathan33-lgtm
+LinkedIn: https://www.linkedin.com/in/oun-pathan-b99741420
